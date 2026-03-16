@@ -18,7 +18,7 @@
         }
 
         // ⭐️ NEW: Build the deep link dynamically with all available parameters
-        let deepLink = `cancionerocarmen://canto?initialNumber=${number}&type=${type}`;
+        let deepLink = `cancioneroluz://canto?initialNumber=${number}&type=${type}`;
         if (listaElements) deepLink += `&listaElements=${listaElements}`;
         if (originalType) deepLink += `&originalType=${originalType}`;
 

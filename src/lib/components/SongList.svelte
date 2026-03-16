@@ -76,7 +76,7 @@
     <slot name="tabs"></slot>
 
     <div class="header">
-        <h1>Cancionero Nuestra Señora del Carmen - Editor</h1>
+        <h1>Cancionero Nuestra Señora de la Luz - Editor</h1>
         <button class="add-btn" on:click={onAdd}>
             + Nueva {currentTab === 'canciones' ? 'canción' : currentTab === 'oraciones' ? 'oración' : 'lista'}
         </button>
