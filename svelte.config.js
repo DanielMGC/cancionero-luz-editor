@@ -13,7 +13,7 @@ const config = {
 		}),
 		paths: {
 			// IMPORTANT: Replace 'cancionero-editor' with your exact GitHub repository name!
-			base: process.argv.includes('dev') ? '' : '/cancionero-editor'
+			base: process.argv.includes('dev') ? '' : '/cancionero-luz-editor'
 		}
 	}
 };
