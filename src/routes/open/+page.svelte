@@ -32,7 +32,7 @@
         } 
         // 3. Fallback for actually broken links
         else {
-            status = 'Enlace inválido.';
+            status = 'Enlace inválido...';
             return;
         }
 
